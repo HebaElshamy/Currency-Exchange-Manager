@@ -1,0 +1,8 @@
+✔ add new currency on the config file @done (8/11/2024, 7:00:29 PM)
+✔ update values of config file @done (8/11/2024, 7:20:43 PM)
+✔ delete values from the config file @done (8/11/2024, 8:03:39 PM)
+✔ view list of values of configuration @done (8/11/2024, 7:00:19 PM)
+☐ The user can view the list of his amount records
+☐ The user can add a new amount
+☐ The user can update the values of the amounts
+☐ The user can delete the amount
