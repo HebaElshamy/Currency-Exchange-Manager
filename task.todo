@@ -1,8 +1,25 @@
-✔ add new currency on the config file @done (8/11/2024, 7:00:29 PM)
-✔ update values of config file @done (8/11/2024, 7:20:43 PM)
-✔ delete values from the config file @done (8/11/2024, 8:03:39 PM)
-✔ view list of values of configuration @done (8/11/2024, 7:00:19 PM)
-☐ The user can view the list of his amount records
-☐ The user can add a new amount
-☐ The user can update the values of the amounts
-☐ The user can delete the amount
+Task:
+
+    Objective:  creating a system that lets users add amounts and get exchange rate of it against other Currencies.
+
+    Important note : creation of auth ( login and logout is not important and not counted in the task so use any premade ui kit like Laravel breeze or Laravel ui and do not put any effort in at.
+
+    Objective 1 : user can add exchange rates of Currencies manually form his dashboard
+    The data will be added in the config file in the root of the project not in the table in the database
+    - users can be able to see all the data of the config file and update its value and add new values to it.
+
+    Objective 2 : user can add records of amounts in the database and when you see the list of it can see the exchange value (amount * config exchange rate )
+
+    Tasks :
+    1- add new currency on the config file
+    2- update values of config file
+    3- delete values from the config file
+    4- view list of values of configuration
+    5- The user can view the list of his amount records
+    6- The user can add a new amount
+    7- The user can update the values of the amounts
+    8- The user can delete the amount
+
+    Note : make sure that the config file is not added to GitHub (add it in .gitignore file)
+
+    After you finish sending the url of the repo you created
