@@ -11,7 +11,7 @@ class CurrencyController extends Controller
     public function index()
     {
         $currencies = Config::get('exchangeRates');
-        return view('dashboard', compact('currencies'));
+        return view('currencies.index', compact('currencies'));
     }
     public function store(Request $request)
     {
@@ -20,14 +20,15 @@ class CurrencyController extends Controller
             'rate' => 'required|numeric',
         ]);
 
+        $currency = strtoupper($request->currency);
         $currencies = Config::get('exchangeRates');
-        $currencies[$request->currency] = $request->rate;
+        $currencies[$currency] = $request->rate;
 
         // Save the updated rates to the file
         $path = config_path('exchangeRates.php');
         file_put_contents($path, '<?php return ' . var_export($currencies, true) . ';');
 
-        return redirect()->route('dashboard');
+        return redirect()->route('currencies.index');
     }
     public function destroy($currency)
     {
@@ -38,7 +39,7 @@ class CurrencyController extends Controller
         $path = config_path('exchangeRates.php');
         file_put_contents($path, '<?php return ' . var_export($currencies, true) . ';');
 
-        return redirect()->route('dashboard');
+        return redirect()->route('currencies.index');
     }
 }
 
