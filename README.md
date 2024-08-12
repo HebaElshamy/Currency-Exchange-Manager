@@ -44,41 +44,48 @@ The Currency Exchange Management System provides a user-friendly dashboard where
 - **Security and Authorization**
 ## How to Run the Program
 1. Clone the repository.
-  ```bash
+   ```bash
    git clone https://github.com/HebaElshamy/Currency-Exchange-Manager.git
 
-```
- 2.  Install project dependencies using Composer:
-   ```bash
-   composer install
-```
+   ```
+ 2. Install project dependencies using Composer:
+    ```bash
+     composer install
+    ```
 3. Copy the .env.example file and rename it to .env:
- ```bash
+   ```bash
     cp .env.example .env
-```
+   ```
 4. Generate the application key:
    ```bash
     php artisan key:generate
-5. Configure the .env file with your database connection details   
-6. Run the database migrations to create tables:
+5. Configure the .env file with your database connection details
+6.  Install Dependencies
+    ```bash
+    npm install
+    ```
+     ```bash
+    npm run dev
+    ```
+8. Run the database migrations to create tables:
     ```bash
     php artisan migrate
-7. Populate the database with the required data.
+9. Populate the database with the required data.
     ```bash
     php artisan db:seed --class=UsersTableSeeder
-8. Start the local server:
+10. Start the local server:
     ```bash
     php artisan serve    
     
-9. Open the project in the browser at http://localhost:8000
+11. Open the project in the browser at http://localhost:8000
    or http://localhost/Currency-Exchange-Manager/public/
-11. To login as an user, use the following credentials:
+12. To login as an user, use the following credentials:
     
     - Email: user1@example.com
     - Password: 123456789
     - Email: user2@example.com
     - Password: 123456789
-12. Enjoy your experience!
+13. Enjoy your experience!
 ## Interview Task Link
 https://github.com/HebaElshamy/Currency-Exchange-Manager/blob/main/task.todo
 
