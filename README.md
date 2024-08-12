@@ -70,16 +70,31 @@ The Currency Exchange Management System provides a user-friendly dashboard where
     ```bash
     php artisan serve    
     
-9. Open the project in the browser at http://localhost:8000. 
-10. To login as an user, use the following credentials:
+9. Open the project in the browser at http://localhost:8000
+   or http://localhost/Currency-Exchange-Manager/public/
+11. To login as an user, use the following credentials:
     
     - Email: user1@example.com
     - Password: 123456789
     - Email: user2@example.com
     - Password: 123456789
-11. Enjoy your experience!
+12. Enjoy your experience!
 ## Interview Task Link
 https://github.com/HebaElshamy/Currency-Exchange-Manager/blob/main/task.todo
+
+![Screenshot (16)](https://github.com/user-attachments/assets/84f60079-ba17-4981-b54a-fc41fa300b28)
+
+![Screenshot (17)](https://github.com/user-attachments/assets/15ea677c-ace4-44e9-b460-1ae934749605)
+
+![Screenshot (18)](https://github.com/user-attachments/assets/d8f135fe-a316-4d6d-a742-a00d51097408)
+
+![Screenshot (19)](https://github.com/user-attachments/assets/d563d62f-e9a1-4dbc-ad08-1a2eb94b5aab)
+
+![Screenshot (20)](https://github.com/user-attachments/assets/cbd9e750-0485-4925-9db6-e112abc1039b)
+
+
+
+
 
 
 
